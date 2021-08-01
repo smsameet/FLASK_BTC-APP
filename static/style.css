@@ -16,6 +16,13 @@ body{
 #Header_name {
     text-align: center;
 }
+#Header_name > a {
+    color: #000;
+    text-decoration: none;
+}
+#Header_name > a:hover {
+    color: #218838;
+}
 #Prograph {
     text-align: center;
     font-size: 18px;
@@ -58,4 +65,9 @@ body{
 .Footer_page {
     border-top: 2px solid #000;
     margin-top: 50px;
+    padding: 10px;
+}
+.Footer_page > ul > li {
+    padding: 20px;
+    display: inline;
 }

@@ -10,9 +10,9 @@
     <script type="text/javascript" src="{{ url_for('static' ,filename='scropt.js') }}"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="Header_page">
-            <h1 id='Header_name'>FLASK BITCOIN APPLICATION</h1>
+    <div class="container"> <!--contaner body-->
+        <div class="Header_page"> <!--header site ( name and paragraph)-->
+            <h1 id='Header_name'><a href="{{ index }}">FLASK BITCOIN APPLICATION</a></h1>
             <p id='Prograph'>Welcome to my application</p>
         </div>
         <div class="content">
@@ -25,7 +25,7 @@
             </div>
             <div class='rigth'>
                 <div class="login_logo"></div>
-                <form class="form-groukp form-costomize">
+                <form action="" class="form-groukp form-costomize">
                     <input class="form-control " type="text" name="username" placeholder="Username"><br>
                     <input class="form-control " type="text" name="passqord" placeholder="Passqord"><br>
                     <button class="btn btn-success">login</button>
@@ -33,7 +33,13 @@
             </div>
         </div>
         <div class="Footer_page">
-            <p>Devepoer is sameet</p>
+            <p>Devepoer is <i><b>sameet</b></i></p>
+            <ul>
+                <li><a href="https://wwww.sameet.ir/">My Weblog</a></li>
+                <li><a href="https://sameet.ir/videocast/">VideoCast</a></li>
+                <li><a href="https://www.youtube.com/channel/UC_XJ4oRW4qL2Cmi7VHo9KsQ">My Youtube</a></li>
+                <li><a href="https://t.me/sameet_ir">My Telegram</a></li>
+            </ul>
         </div>
     </div>
 </body>
