@@ -1,10 +1,10 @@
-/* @font-face {
-    font-family: ;
-    src: url();
-} */
+@font-face {
+    font-family: myfont;
+    src: url('fonts/BalooChettan2-Medium.ttf');
+}
 body{
     background-color: rgb(231, 231, 231);
-    /* font-family: ; */
+    font-family: myfont;
     padding: 0;
     margin: 0;
 }
@@ -19,6 +19,41 @@ body{
 #Prograph {
     text-align: center;
     font-size: 18px;
+}
+.content {
+    height: 500px;
+}
+.left {
+    float: left;
+    width: 48%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.btcoin_logo {
+    margin: auto;
+    padding: 50px;
+    content: url("images/PngItem_847794.png");
+    width: 350px;
+}
+.login_logo {
+    margin: auto;
+    padding: 20px;
+    content: url("images/login.png");
+    width: 200px;
+}
+.form-costomize {
+    padding: 20px;
+}
+.left > p {
+    padding: 40px;
+}
+.rigth {
+    float: right;
+    width: 48%;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #fff;
 }
 .Footer_page {
     border-top: 2px solid #000;
