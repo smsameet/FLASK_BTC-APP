@@ -16,4 +16,4 @@ for login the admin pages go to app.y file and edit Admin dictionary and write u
 Admin {'username' : '...' , 'password' : '...'}
 ```
 ## images
-![Screenshot](https://s4.uupload.ir/files/screenshot_from_2021-08-02_17-22-11_0r8q.png)
+![Screenshot](https://s4.uupload.ir/files/screenshot_from_2021-08-02_21-08-05_umjj.png)
