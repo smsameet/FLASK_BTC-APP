@@ -11,9 +11,6 @@ install dependency
 ```
 pip install -r DEPENDENCE.text
 ```
-for login the admin pages go to app.y file and edit Admin dictionary and write username / password.
-```
-Admin {'username' : '...' , 'password' : '...'}
-```
+
 ## images
 ![Screenshot](https://s4.uupload.ir/files/screenshot_from_2021-08-02_21-08-05_umjj.png)
