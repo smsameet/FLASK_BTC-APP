@@ -11,6 +11,3 @@ install dependency
 ```
 pip install -r DEPENDENCE.text
 ```
-
-## images
-![Screenshot](https://s4.uupload.ir/files/screenshot_from_2021-08-02_21-08-05_umjj.png)
