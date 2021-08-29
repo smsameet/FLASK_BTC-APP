@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLASK BTC APPLICATION</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static' ,filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static' ,filename='style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static' ,filename='scropt.js') }}"></script>
+</head>
+<body>
+    <div class="container"> <!--contaner body-->
+        <div class="Header_page"> <!--header site ( name and paragraph)-->
+            <h1 id='Header_name'><a href="{{ index }}">FLASK BITCOIN APPLICATION</a></h1>
+            <p id='Prograph'>Welcome to my application</p>
+        </div>
+        <div class="content">
+          <table style="width: 100%;">
+            <tr>
+              <th>Base</th>
+              <th>Amount</th>
+              <th>Buy</th>
+              <th>Currency</th>
+            </tr>
+            <tr>
+              <td>{{ Responce["data"]["base"] }}</td>
+              <td>{{ Responce["data"]["amount"][:3] }}</td>
+              <td>{{ Responce["data"]["amount"] }}</td>
+              <td>{{ Responce["data"]["currency"] }}</td>
+            </tr>
+          </table>
+        </div>
+        <div class="Footer_page">
+            <ul>
+                <li>Devepoer is <i><b>sameet</b></i></li>
+                <li><a href="https://wwww.sameet.ir/">My Weblog</a></li>
+                <li><a href="https://sameet.ir/videocast/">VideoCast</a></li>
+                <li><a href="https://www.youtube.com/channel/UC_XJ4oRW4qL2Cmi7VHo9KsQ">My Youtube</a></li>
+                <li><a href="https://t.me/sameet_ir">My Telegram</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
