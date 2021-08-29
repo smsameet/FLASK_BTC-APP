@@ -6,12 +6,12 @@ from flask import render_template
 app = Flask(__name__)
 
 Admin = {
-    "username": 'admin',
-    "password": 'admin'
+    "username": # write your username for login to app,
+    "password": # write your password for login to app
 }
 
 Proxy = {
-    "https": 'http://127.0.0.1:42585/'
+    # write your proxy for call api
 }
 
 
